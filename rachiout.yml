@@ -1,0 +1,18 @@
+
+# Use the instructions here to get your api token: https://rachio.readme.io/reference/authentication
+api-token: "your-token-goes-here"
+
+# The base url for the rachio api
+api-base-uri: "https://api.rach.io/1/public"
+
+# This should be the name of the rachio device for the system you want to purge as found in the mobile app.  Ex: "Rachio-ABCD01"
+rachio-device-name: "your device name"
+
+# How long to purge each zone.  Adjust so that it only runs as long as there is reasonable air pressure
+purge-sec: 10
+
+# How long to wait for your compressor to refill its air tank
+compressor-recharge-delay-sec: 60
+
+# how many times to repeat the purge on all enabled zones
+repetitions: 10
